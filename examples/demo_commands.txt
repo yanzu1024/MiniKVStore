@@ -1,0 +1,16 @@
+SET language cpp
+SET greeting "hello world"
+SET user:1001 "Alice Chen"
+SET user:1002 "Bob Li"
+SET verification_code 123456 TTL 60
+GET greeting
+EXISTS verification_code
+KEYS user:
+STATS
+SET language cpp17
+DEL user:1002
+COMPACT
+GET language
+STATS
+EXIT
+

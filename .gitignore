@@ -1,0 +1,13 @@
+/build/
+/build-*/
+/cmake-build-*/
+/.cache/
+/.idea/
+/.vscode/
+/data/
+*.aof
+*.tmp
+*.user
+*.autosave
+README.html
+
