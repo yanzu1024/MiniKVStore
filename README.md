@@ -204,5 +204,3 @@ ctest --test-dir build-tsan --output-on-failure
 - `KEYS` 会扫描内存索引，适合演示和中小数据集；
 - 单个键最大 4 KiB，单个值最大 16 MiB。
 
-投递前快速验收见 [docs/QUICK_START_CN.md](docs/QUICK_START_CN.md)，类职责、数据结构和面试问答见 [docs/PROJECT_WALKTHROUGH.md](docs/PROJECT_WALKTHROUGH.md)。
-
